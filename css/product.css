@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&family=Red+Hat+Display:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'questrial';
+}
+
+:root{
+    --pink: #FCE4D9;
+    --text-color: #000000;
+    --blue: #E5E5E5;
+}
+
+.line{
+    border-top: 1px solid #000000;
+}
+
+/* header css */
+.header{
+    background-color: #D0DEFC;
+}
+
+.navbar-nav a{
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 12px;
+    line-height: 15px;
+    margin: auto 10px;
+}
+
+.main-nav .navbar-nav a:hover{
+    border-bottom: solid 2px var(--text-color);
+}
+
+/* section css */
+.product-for{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.product{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.border-pro{
+    border: 1px solid var(--text-color);
+}
+
+.border-pro a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.border-pro:hover{
+    background-color: var(--text-color);
+}
+
+.border-pro a:hover{
+    color: white;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.price span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.product-price{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: red;
+    font-weight: bold;
+}
+
+.product-price span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: red;
+}
+
+.product-price a{
+    color: red;
+}
+
+.btn-desc{
+    border-radius: 0px;
+}
+
+.desc-container{
+    width: 240px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+/* footer css */
+.footer{
+    background-color: white;
+}
+
+.footer-container{
+    margin-top: 46px;
+}
+
+.border-left{
+    border-left: 1px solid var(--text-color);
+}
+
+.footer-nav a{
+    margin-right: 50px;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+}
+
+.footer-nav p{
+    margin-top: 190px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footer-download{
+    margin-top: 90px;
+}
+
+.footer-download a{
+    margin-right: 10px;
+}
+
+.footer-social p a{
+    color: var(--text-color);
+}
+
+.footer-social p:last-child{
+    margin-top: 13px;
+}
+
+.social-container a{
+    margin-right: 20px;
+}

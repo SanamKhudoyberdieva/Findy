@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/order.css">
+    <title>Order</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-3 d-flex align-items-center">
+                    <a href="#"><img src="images/Group (1).svg" alt=""></a>
+                </div>
+                <div class="col-5 d-flex justify-content-center main-nav">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                                    <a class="nav-link" href="#">Продукция</a>
+                                    <a class="nav-link" href="#">О компании</a>
+                                    <a class="nav-link" href="#">Контакты</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-4 d-flex justify-content-end">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-link" href="#"><img src="images/поиск.svg" alt=""></a>
+                                    <a class="nav-link" href="#"><img src="images/Star 2.svg" alt=""></a>
+                                    <a class="nav-link" href="#"><img src="images/Vector.svg" alt=""></a>
+                                    <a class="nav-link" href="#"><img src="images/личный кабинет.svg" alt=""></a>
+                                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item dropdown">
+                                                <button class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                    aria-expanded="false">РУС</button>
+                                                <ul class="dropdown-menu dropdown-menu-light">
+                                                    <li><a class="dropdown-item" href="#">Русский</a></li>
+                                                    <li><a class="dropdown-item" href="#">O'zbekcha</a></li>
+                                                    <li><a class="dropdown-item" href="#">English</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="gray-bg position-relative">
+        <div class="container container-mb">
+            <div class="es-back-btn-wrapper">
+                <button class="btn">
+                    <img class="es-back-ic" src="/images/back-ic.svg" alt="back">
+                    <span class="es-back-btn-text">Назад</span>
+                </button>
+            </div>
+            <div class="row mb-117">
+                <div class="col-4 info-container">
+                    <h1 class="page-main-title mb-3">ОФОРМЛЕНИЕ ЗАКАЗА</h1>
+                    <p class="input-name mb-0">Способ доставки</p>
+                    <div class="d-flex navigation">
+                        <a href="#">Курьером</a>
+                        <a class="ms-4" href="#">Самовывоз</a>
+                    </div>
+                    <p class="input-name">ФИО</p>
+                    <div class="mb-3">
+                        <input type="email" class="form-control input-container" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите Имя">
+                    </div>
+                    <p class="input-name">Номер телефона</p>
+                    <div class="mb-3">
+                        <input type="email" class="form-control input-container" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="+998__ ___-__-__">
+                    </div>
+                    <p class="input-name">Адрес</p>
+                    <div class="mb-3">
+                        <input type="email" class="form-control input-container" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите адрес доставки">
+                    </div>
+                    <p class="resent-adress mb-1">Ваши последние адреса:</p>
+                    <p class="adress-name">ул. Глинки 59А, кв 58 ул. <br> Амира Тимура 5, кв 2</p>
+                    <p class="input-name">Ориентир</p>
+                    <div class="mb-3">
+                        <input type="email" class="form-control input-container" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите ориентир">
+                    </div>
+                    <p class="input-name">Комментарий</p>
+                    <div class="mb-3">
+                        <input type="email" class="form-control input-container-comment" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Комментарий к заказу">
+                    </div>
+                    <p class="input-name">Оплата</p>
+                    <div class="d-flex navigation">
+                        <a class="me-3" href="#">Терминал</a>
+                        <a href="#">Онлайн-оплата</a>
+                    </div>
+                    <p class="input-name">Промокод</p>
+                    <div>
+                        <button type="button" class="btn border-profile">Ваш промокод</button>
+                        <button type="button" class="btn border-profile">Применить</button>
+                    </div>
+                    <div class="line"></div>
+                    <div class="d-flex justify-content-between">
+                        <p class="input-name">Стоимость доставки:</p>
+                        <p class="input-name">0 <span class="span"> UZS</span></p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="input-name mt-1">Итоговая цена:</p>
+                        <p class="input-name mt-1">56 022 <span class="span"> UZS</span></p>
+                    </div>
+                    <button type="button" class="btn btn-order">Оформить заказ</button>
+                </div>
+            </div>
+        </div>
+        <div class="about-map bg-purple position-absolute container-mb">
+            <img class="company-image img-fluid" src="/images/Rectangle 186 (2).jpg" alt="company photo">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="line"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-8  footer-nav">
+                    <div class="footer-container">
+                        <a href="#"><img src="images/Group (1).svg" alt=""></a>
+                        <a href="#">Главная</a>
+                        <a href="#">Продукция</a>
+                        <a href="#">О компании</a>
+                        <a href="#">Контакты</a>
+                    </div>
+                    <p>© 2022 FindyUz. Все права защищены</p>
+                </div>
+                <div class="col-4  footer-social border-left">
+                    <div class="footer-container">
+                        <p>МЫ В СОЦ.СЕТЯХ!</p>
+                        <div class="social-container">
+                            <a href="#"><img src="images/Telegram.svg" alt=""></a>
+                            <a href="#"><img src="images/instagramm.svg" alt=""></a>
+                            <a href="#"><img src="images/Facebook (1).svg" alt=""></a>
+                        </div>
+                        <div class="footer-download">
+                            <a href="#"><img class="mt-1" src="images/google play.svg" alt=""></a>
+                            <a href="#"><img src="images/App Store.svg" alt=""></a>
+                        </div>
+                        <p>Сайт разработан в <a href="#"> 360 Agency</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>

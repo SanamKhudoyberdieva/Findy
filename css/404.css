@@ -1,0 +1,30 @@
+h1{
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 106px;
+    letter-spacing: 0.05em;
+}
+
+.container-mt{
+    margin-top: 170px;
+}
+
+p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.btn-error{
+    border: 1px solid #000000;
+    padding: 2px 22px;
+    border-radius: 0;
+}
+
+.btn-error:hover{
+    background-color: #000000;
+    color: white;
+}

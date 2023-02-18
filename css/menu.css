@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&family=Red+Hat+Display:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'questrial';
+}
+
+:root{
+    --pink: #FCE4D9;
+    --text-color: #000000;
+    --blue: #E5E5E5;
+}
+
+.line{
+    border-top: 1px solid #000000;
+}
+
+/* header css */
+.header{
+    background-color: white;
+}
+
+.navbar-nav a{
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 12px;
+    line-height: 15px;
+    margin: auto 10px;
+}
+
+.main-nav .navbar-nav a:hover{
+    border-bottom: solid 2px var(--text-color);
+}
+
+.es-back-btn-wrapper {
+    padding: 56px 0 40px 0;
+}
+
+.es-back-btn-wrapper .btn {
+    padding: 0;
+    border-radius: 0;
+}
+
+.es-back-ic {
+    padding: 0.75rem 1rem;
+    border: 1px solid #000;
+}
+
+.es-back-btn-text {
+    font-size: 0.75rem;
+    margin-left: 0.625rem;
+}
+
+.page-main-title {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+/* menu section */
+body{
+    background-color: #D0DEFC;
+}
+
+.menu-link{
+    width: 20%;
+    height: 60px;
+    padding: 0;
+}
+
+.menu-link-available:hover{
+    background-color: white;
+}
+
+.menu-link a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.border-menu{
+    border: 1px solid var(--text-color);
+}
+
+/* navbar section */
+.navbar-items a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.navbar-items a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.button-style{
+    background-color: white;
+    border-radius: 0px;
+}
+
+/* product section */
+.product-for{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.product{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.border-container{
+    border: 1px solid var(--text-color);
+}
+
+.product-container{
+    background-color: #E5E5E5;
+}
+
+.discount-price{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.discount-price span{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.price-org{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: line-through;
+    margin: 0;
+}
+
+/* footer css */
+.footer{
+    background-color: #D0DEFC;
+}
+
+.footer-container{
+    margin-top: 46px;
+}
+
+.border-left{
+    border-left: 1px solid var(--text-color);
+}
+
+.footer-nav a{
+    margin-right: 50px;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+}
+
+.footer-nav p{
+    margin-top: 190px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footer-download{
+    margin-top: 90px;
+}
+
+.footer-download a{
+    margin-right: 10px;
+}
+
+.footer-social p a{
+    color: var(--text-color);
+}
+
+.footer-social p:last-child{
+    margin-top: 13px;
+}
+
+.social-container a{
+    margin-right: 20px;
+}
