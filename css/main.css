@@ -36,6 +36,11 @@
     margin-left: 0.625rem;
 }
 
+.btn-outline-dark {
+    width: 160px;
+    height: 50px;
+}
+
 /* header css */
 header{
     background-color: #FCE4D9;
@@ -62,6 +67,15 @@ header{
 
 .wrapper-slider{
     margin-top: 50px;
+}
+
+.mt-only {
+    margin-top: 47px;
+}
+
+.btn-star{
+    border: none;
+    background-color: inherit;
 }
 
 /* menu section */
@@ -139,6 +153,7 @@ header{
     line-height: 15px;
     text-align: center;
     font-weight: bold;
+    margin-bottom: 47px;
 }
 
 .discount-price span{

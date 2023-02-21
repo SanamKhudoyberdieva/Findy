@@ -97,17 +97,23 @@
                     </div>
                     <p class="input-name">Комментарий</p>
                     <div class="mb-3">
-                        <input type="email" class="form-control input-container-comment" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Комментарий к заказу">
+                        <input type="email" class="form-control input-container-comment  pad-b" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Комментарий к заказу">
                     </div>
                     <p class="input-name">Оплата</p>
-                    <div class="d-flex navigation">
-                        <a class="me-3" href="#">Терминал</a>
-                        <a href="#">Онлайн-оплата</a>
+                    <div class="checkout-options">
+                        <div class="toggle-group">
+                            <input type="radio" id="toggle-1" name="toggle" checked />
+                            <label for="toggle-1">Терминал</label>
+                            <input type="radio" id="toggle-2" name="toggle" />
+                            <label for="toggle-2">Онлайн-оплата</label>
+                        </div>
                     </div>
                     <p class="input-name">Промокод</p>
-                    <div>
-                        <button type="button" class="btn border-profile">Ваш промокод</button>
-                        <button type="button" class="btn border-profile">Применить</button>
+                    <div class="d-flex">
+                        <div class="input-container">
+                            <input type="text" id="f-name" placeholder="Ваш промокод" class="form-control user-code-input">
+                        </div>
+                        <button type="button" class="btn es-gray-btn light-grey-text active btn-hover-black">Применить</button>
                     </div>
                     <div class="line"></div>
                     <div class="d-flex justify-content-between">

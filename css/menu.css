@@ -109,6 +109,10 @@ body{
     border-radius: 0px;
 }
 
+.button-style:hover{
+    background-color: white;
+}
+
 /* product section */
 .product-for{
     font-weight: 400;

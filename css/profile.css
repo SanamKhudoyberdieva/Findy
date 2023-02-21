@@ -87,6 +87,10 @@ header {
     margin-bottom: 120px;
 }
 
+.border-b{
+    border-bottom: 1px solid var(--text-color);
+}
+
 /* main */
 .profile-user{
     font-weight: 700;
@@ -142,6 +146,11 @@ header {
     padding: 10px 50px;
     margin-bottom: 13px;
     margin-top: 15px;
+}
+
+.btn-profile:hover{
+    border: 1px solid var(--text-color);
+    
 }
 
 .profile-span{
